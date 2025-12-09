@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="victor">
+    <meta name="description" content="formulário de cadastro">
+    <title>formulário</title>
+</head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .fundo{
+            background-image: linear-gradient(45deg,black,crimson );
+            height: 100vh;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+<body style="text-align: center;">
+    <main>
+        <div style="position: absolute; top: 10px; left: 10px;" >
+        <img src="img/png-transparent-computer-icons-form-others-miscellaneous-template-angle.png" alt="Logo Colégio Web" style="width: 40px; height: 40; vertical-align: middle;">
+        </div >
+        <div class="fundo">
+        <h1 >FORMULÁRIO</h1>
+        <br><br> <br><br> <br><br>
+        <form action="recebedor.php" method="post">
+
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Escreva aqui" required >
+            &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <label for="senha">senha</label>
+            <input type="password" id="senha" name="senha" placeholder="Escreva aqui" required>
+             &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"  placeholder="Escreva aqui" required>
+             &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <label for="data_nascimento">Data de Nascimento:</label>
+            <input type="date" id="data_nascimento" name="data_nascimento" required>
+             &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <br><br><br><br>
+
+             <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" placeholder="Escreva aqui" required>
+             &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <label for="rg">RG:</label>
+            <input type="text" id="rg" name="rg" placeholder="Escreva aqui" required>
+                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Escreva aqui" required>
+                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <label for="profissao">Profissão:</label>
+            <input type="text" id="profissao" name="profissao" placeholder="Escreva aqui" required>
+             &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <br><br><br><br>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" placeholder="Escreva aqui" required>
+             &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" placeholder="Escreva aqui" required>
+             &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" placeholder="Escreva aqui" required>
+             &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" placeholder="Escreva aqui" required>
+             &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <br><br><br><br>
+            
+
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" placeholder="Escreva aqui" required>
+             &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <label for="sexo">Sexo:</label>
+            <label for="naturalidade">Naturalidade:</label>
+            <input type="text" id="naturalidade" name="naturalidade" placeholder="Escreva aqui" required>
+             &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+             <label for="nacionalidade">Nacionalidade:</label>
+            <input type="text" id="nacionalidade" name="nacionalidade" placeholder="Escreva aqui" required>
+             &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <br><br><br><br>
+
+            <label for="estado_civil">Estado Civil:</label>
+            <input type="text" id="estado_civil" name="estado_civil" placeholder="Escreva aqui" required>
+             &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <label for="nome_mae">Nome da Mãe:</label>
+            <input type="text" id="nome_mae" name="nome_mae" placeholder="Escreva aqui" required>
+             &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <label for="nome_pai">Nome do Pai:</label>
+            <input type="text" id="nome_pai" name="nome_pai" placeholder="Escreva aqui" required>
+             &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <br><br> <br><br> <br><br><br><br>
+            <button type="submit" style="padding: 18px 30px; font-size: 23; cursor: pointer;" value="Enviar">Enviar</button>
+        </div>
+        </form>
+</body>
+</html>
